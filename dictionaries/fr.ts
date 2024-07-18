@@ -60,6 +60,10 @@ export const fr = {
       fastest: "La façon la plus rapide de créer des applications avec",
       and: "et",
     },
+    protected: {
+      loggedIn: "Connecté !",
+      onlySee: "Vous pouvez seulement voir cette page si vous êtes connecté.",
+      
   },
 };
 export type Dictionary = typeof fr;

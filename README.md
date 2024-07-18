@@ -121,10 +121,6 @@ PostHog is integrated for product analytics. Configure your PostHog project and 
 
 Stripe is set up to handle billing and subscriptions. Update your Stripe configuration and use the provided hooks and components to integrate payments into your app.
 
-### ORM
-
-Prisma ORM is used for database interactions. Define your data models in the `prisma` schema file and run migrations to update the database.
-
 ### Internationalization (i18n)
 
 This boilerplate includes support for internationalization using i18n. You can add and manage translations in the `locales` directory and configure language settings as needed.

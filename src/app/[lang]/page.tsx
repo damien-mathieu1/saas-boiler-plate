@@ -40,6 +40,7 @@ export default async function Index({
     await canInitSupabaseClient();
 
   if (isSupabaseConnected && user) {
+    console.log("User is connected", user);
     return redirect(`/${lang}/protected`);
   }
   return (

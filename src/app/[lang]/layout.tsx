@@ -58,8 +58,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="flex min-h-screen w-full flex-col items-center">
-            <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 w-full">
-              <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 justify-between w-full">
+            <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 w-full backdrop-blur-sm backdrop-filter bg-opacity-10 z-10">
+              <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 justify-between w-full backdrop-blur-sm backdrop-filter bg-opacity-10">
                 <Link href={`/${params.lang}`} className="text-4xl font-bold">
                   SaaS Boiler Plate
                 </Link>

@@ -25,17 +25,7 @@ export default async function Component({
       <div className="px-4 space-y-6 sm:px-6 mt-8">
         <header className="space-y-2">
           <div className="flex items-center space-x-3">
-            <img
-              src="https://www.svgrepo.com/show/75578/avatar.svg"
-              alt="Avatar"
-              width="96"
-              height="96"
-              className="rounded-full"
-            />
-            <div className="space-y-1">
-              <h1 className="text-2xl font-bold">Meadow Richardson</h1>
-              <Button size="sm">{t.changePhoto}</Button>
-            </div>
+            <h1 className="text-2xl font-bold">Meadow Richardson</h1>
           </div>
         </header>
         <div className="space-y-8">

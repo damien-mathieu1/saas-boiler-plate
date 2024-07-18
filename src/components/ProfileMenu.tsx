@@ -14,7 +14,7 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
-import { Github, LogOut, Moon, Sun, User } from "lucide-react";
+import { Coffee, Github, Link2, LogOut, Moon, Sun, User } from "lucide-react";
 import { Locale } from "@/i18n-config";
 import Link from "next/link";
 
@@ -55,6 +55,26 @@ export const ProfileMenu = ({
           >
             <Github className="mr-2 h-4 w-4" />
             <span>GitHub</span>
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link
+            href={`https://www.buymeacoffee.com/damienmathieu`}
+            target="_blank"
+            className="flex items-center w-full"
+          >
+            <Coffee className="mr-2 h-4 w-4" />
+            <span>Buy me a coffee</span>
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link
+            href={`https://damien-homepage.vercel.app/`}
+            target="_blank"
+            className="flex items-center w-full"
+          >
+            <Link2 className="mr-2 h-4 w-4" />
+            <span>My portfolio</span>
           </Link>
         </DropdownMenuItem>
         <DropdownMenuSub>
